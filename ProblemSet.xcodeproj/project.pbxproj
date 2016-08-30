@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FAC74431D7319420000C35B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC74421D7319420000C35B /* main.cpp */; };
+		9FAC74431D7319420000C35B /* SelfPrint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC74421D7319420000C35B /* SelfPrint.cpp */; };
+		9FAC744A1D731A600000C35B /* MedianInTwoSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC74491D731A600000C35B /* MedianInTwoSortedArrays.cpp */; };
+		9FAC744C1D73A6410000C35B /* MergeKSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC744B1D73A6410000C35B /* MergeKSortedLists.cpp */; };
+		9FAC744E1D73CEC50000C35B /* LargestSequenceSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC744D1D73CEC50000C35B /* LargestSequenceSum.cpp */; };
+		9FAC74501D747A070000C35B /* SortNPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC744F1D747A070000C35B /* SortNPairs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,11 @@
 
 /* Begin PBXFileReference section */
 		9FAC743F1D7319420000C35B /* ProblemSet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProblemSet; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FAC74421D7319420000C35B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9FAC74421D7319420000C35B /* SelfPrint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelfPrint.cpp; sourceTree = "<group>"; };
+		9FAC74491D731A600000C35B /* MedianInTwoSortedArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MedianInTwoSortedArrays.cpp; sourceTree = "<group>"; };
+		9FAC744B1D73A6410000C35B /* MergeKSortedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeKSortedLists.cpp; sourceTree = "<group>"; };
+		9FAC744D1D73CEC50000C35B /* LargestSequenceSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestSequenceSum.cpp; sourceTree = "<group>"; };
+		9FAC744F1D747A070000C35B /* SortNPairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortNPairs.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		9FAC74411D7319420000C35B /* ProblemSet */ = {
 			isa = PBXGroup;
 			children = (
-				9FAC74421D7319420000C35B /* main.cpp */,
+				9FAC74421D7319420000C35B /* SelfPrint.cpp */,
+				9FAC74491D731A600000C35B /* MedianInTwoSortedArrays.cpp */,
+				9FAC744B1D73A6410000C35B /* MergeKSortedLists.cpp */,
+				9FAC744D1D73CEC50000C35B /* LargestSequenceSum.cpp */,
+				9FAC744F1D747A070000C35B /* SortNPairs.cpp */,
 			);
 			path = ProblemSet;
 			sourceTree = "<group>";
@@ -118,7 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FAC74431D7319420000C35B /* main.cpp in Sources */,
+				9FAC744C1D73A6410000C35B /* MergeKSortedLists.cpp in Sources */,
+				9FAC744A1D731A600000C35B /* MedianInTwoSortedArrays.cpp in Sources */,
+				9FAC74431D7319420000C35B /* SelfPrint.cpp in Sources */,
+				9FAC744E1D73CEC50000C35B /* LargestSequenceSum.cpp in Sources */,
+				9FAC74501D747A070000C35B /* SortNPairs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +255,7 @@
 				9FAC74481D7319420000C35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
