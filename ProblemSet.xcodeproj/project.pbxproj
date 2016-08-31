@@ -27,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F99FF991D772E0B005EC8BE /* RandomlyPermutingArrayOfN.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = RandomlyPermutingArrayOfN.rtf; sourceTree = "<group>"; };
 		9FAC743F1D7319420000C35B /* ProblemSet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProblemSet; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAC74421D7319420000C35B /* SelfPrint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelfPrint.cpp; sourceTree = "<group>"; };
 		9FAC74491D731A600000C35B /* MedianInTwoSortedArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MedianInTwoSortedArrays.cpp; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 				9FAC744B1D73A6410000C35B /* MergeKSortedLists.cpp */,
 				9FAC744D1D73CEC50000C35B /* LargestSequenceSum.cpp */,
 				9FAC744F1D747A070000C35B /* SortNPairs.cpp */,
+				9F99FF991D772E0B005EC8BE /* RandomlyPermutingArrayOfN.rtf */,
 			);
 			path = ProblemSet;
 			sourceTree = "<group>";

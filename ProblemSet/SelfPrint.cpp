@@ -12,6 +12,5 @@ using namespace std;
 //        }
 //    }
 //    const char* str2 = s.c_str();
-//    // %s take the address printing its content and avoid loop
 //    printf(str2, 34, str1, 34);
 //}

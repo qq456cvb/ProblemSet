@@ -55,11 +55,11 @@ public:
     }
 };
 
-int main () {
-    Solution sol;
-    vector<int> a = {1, 4, -6, 2,3,2,9};
-    auto result = sol.FindLargestSequenceSum(a);
-    for_each(result.begin(), result.end(), [](int& num){
-        cout << num << endl;
-    });
-}
+//int main () {
+//    Solution sol;
+//    vector<int> a = {1, 4, -6, 2,3,2,9};
+//    auto result = sol.FindLargestSequenceSum(a);
+//    for_each(result.begin(), result.end(), [](int& num){
+//        cout << num << endl;
+//    });
+//}

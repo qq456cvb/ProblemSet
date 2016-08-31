@@ -10,6 +10,12 @@
 #include <vector>
 using namespace std;
 
+struct Fractal {
+    double value;
+    std::pair<int, int> fractal;
+};
+
+// no way of O(N) time and O(N) space solution?
 class Solution {
 public:
     void SortNPairs(vector<std::pair<int, int>>& pairs, int n)
@@ -20,7 +26,7 @@ public:
             decimalNums.push_back(pairs[i].first / (double)pairs[i].second);
         }
         
-        //count sort, at most O(10*lgn)
+        //count sort, at most O(N*lgn)
         double minDiff = 1. / n;
         int digitCnt = 1;
         double precision = 1.;
@@ -32,3 +38,11 @@ public:
         
     }
 };
+
+int main() {
+    Fractal a;
+    a.value = 1.;
+    Fractal b;
+    b = a;
+    return 0;
+}
